@@ -1,0 +1,19 @@
+.column{
+  float: right;
+  width:33.33%;
+  padding: 10px;
+}
+
+div{
+  border-style: solid;
+  border-color: slateblue;
+}
+
+div2 {
+border-style:solid;
+border-color: slateblue;
+border-width: 4px;
+width: 20%;
+height: 300px;
+box-sizing: border-box;
+}

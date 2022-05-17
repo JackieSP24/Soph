@@ -1,0 +1,21 @@
+body{
+  background-color:lavenderblush 
+}
+
+#blur{
+border: 6px outset #3598ac;
+background-color: #ffd6da;
+margin: auto;
+width: 200px;
+height:200px;
+}
+
+.button {
+  position: relative;
+  bottom: 30px;
+
+}
+.button:hover {
+  background-color: #cb9aa9;
+  color: black;
+}

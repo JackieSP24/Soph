@@ -1,0 +1,11 @@
+.column2{ 
+  float: left;
+  width: 60%;
+  padding: 15px;
+}
+ .header{
+  <background-color: repeating-radial-gardient(red 25%, blue 25%, pink 50%)>; 
+text-align: center;
+padding:20px;
+ margin:5px;
+color: #2e8789; 
