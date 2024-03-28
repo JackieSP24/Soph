@@ -3,16 +3,12 @@
   <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
- <title>Lab 14</title>
- <link href="../../MainPortfolio.css"
-  rel="stylesheet" type="text/css"/>
-    <link href="Lab14.css" rel="stylesheet"  type="text/css">
- 
-</head>
+<link href="../../MainPortfolio.css"  rel="stylesheet" type="text/css"/>
+<link href="lab14.css" rel="stylesheet"  type="text/css">
+ <title> Lab 14</title>
+  </head>
 <body>
-<div class="topnav">
-</div>
-  <div class="topnav">
+ <div class="topnav">
 <a href="../../">Home</a>
 <a href="../../Labs/Lab 1 /Lab1.html"> Lab 1 </a>
 <a href="../../Labs/Lab 2 /Lab 2.html"> Lab 2 </a>
@@ -29,78 +25,27 @@
 <a href="../../Labs/Lb13/Lab 13.html"> Lab 13</a>
 <a href="../../Labs/Lb14/Lab 14.html"> Lab 14</a> 
 <a href="../../Labs/Lb15/Lab 15.html"> Lab 15</a>
-<a href="../../Labs/Lb16/Lab 16.html"> Lab 16</a>
-<a href="../../Labs/Lb17/Lab 17.html"> Lab 17 </a>
-<a href="../../Labs/Lb18/Lab 18.html"> Lab 18 </a> 
-<a href="../../Labs/Lb19/Lab 19.html"> Lab 19</a>
-<a href="../../Labs/Lb20/Lab 20.html"> Lab 20 </a>
 </div>  
-  <div class="header">
-<h1> Thomas A. Edison High School
-</h1>
-    <h2> Lab 14</h2>
-    <h3> 3/1/22</h3>
+ <div class="header">
+    <h1> TAEHS</h1>
+    <h2> Lab 18</h2>
+    <h4>March 25th 2022</h4> 
     <h5>Jacqueline Santos</h5>
     </div> 
-    <div class="topnav">
-      </div> 
- <div id="demoBox">
-
-
-<h2>Responsive Form</h2>
-
-<div class="container">
-  <form action="/action_page.php">
-  <div class="row">
-    <div class="col-25">
-      <label for="fname">First Name</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="lname">Last Name</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="country">Country</label>
-    </div>
-    <div class="col-75">
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="subject">Subject</label>
-    </div>
-    <div class="col-75">
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
-    </div>
-  </div>
-  <br>
-  <div class="row">
-    <input type="submit" value="Submit">
-  </div>
-  </form>
-</div>
-</head>
-<ul id="navlist">
-  <li id="home"><a href="default.asp"></a></li>
-  <li id="prev"><a href="css_intro.asp"></a></li>
-  <li id="next"><a href="css_syntax.asp"></a></li>
-</ul>
-
-   
+<div> Navigation Bar</div>
+  <div> Header Bar</div>
+  <div id="blur"> </div>
+  
+  <button type="button" onclick="size()"> Size </button>
+  <button type="button" onclick="move()"> Position</button>
+  <button type="button" onclick="circle()"> Shape</button>
+  <button type="button" onclick="hue()"> Color </button>
+  
+  <script>
+   function hue(){
+document.getElementById("blur").style.backgroundColor="blue";
+}
+  </script>
 </body>
 
 </html>

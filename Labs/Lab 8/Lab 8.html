@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-<body>
-   <html lang="en">
-  <meta charset="UTF-8">
+   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
- <title>Lab 3</title>
- <link href="../../MainPortfolio.css"
-  rel="stylesheet" type="text/css"/>
-</head>
+  <title> Lab 8 </title>
+<link href="../../MainPortfolio.css"  rel="stylesheet" type="text/css">
+<link href="Lab8.css" rel="stylesheet"  type="text/css">
+<style>
+  .dropdown{
+  position: relative;
+  display: inline-block;
+
+}
+.dropDownContent{
+  display: none;
+  position: absolute;
+  background-color: rgba(182, 255, 251, 0.568);
+  min-width: 160px;
+   box-shadow: 0px 8px 16px 0px;
+   padding: 12px 16px;
+   z-index: 1;
+}
+.dropdown:hover .dropDownContent{
+  display: block;
+}
+</style>
+  </head>
+
+<body>
   <div class="topnav">
 <a href="../../">Home</a>
 <a href="../../Labs/Lab 1 /Lab1.html"> Lab 1 </a>
@@ -34,12 +53,34 @@
 </div>  
  <div class="header">
     <h1> TAEHS</h1>
-    <h2> Lab 8</h2>
-    <h4>February 10 2022</h4> 
+    <h2> Lab 12</h2>
+    <h4>Febuary 16th 2022</h4> 
     <h5>Jacqueline Santos</h5>
     </div> 
-  
-  <h4>CSS stands for cascading Style Sheets. CSS is used to describe how HTML elements will be shown.It is the language we use to style a HTML document.</h4>
+    
+  <div class="dropdown">
+   <span> Mouse over me!!!</span>
+   <div class="dropDownContent">
+   <p> Hello world!!!</p>
+   </div>
+   </div>
+  <div class="dropdown">
+    <button class="drpdmenu">
+      Drop Down Menu
+    </button>
+      <a href="a">link</a>
+      <a href="a">link</a>
+      <a href="a">link</a>
+     </div>
+<div class="dropdown">
+  <img src="https://d2zp5xs5cp8zlg.cloudfront.net/image-32881-800.jpg">
+<div class="dropDownContent">
+  <img src="https://d2zp5xs5cp8zlg.cloudfront.net/image-32881-800.jpg">
+  <div class="caption">
+    Hedgehog 
+  </div>
+</div> 
 </body>
-
 </html>
+
+
